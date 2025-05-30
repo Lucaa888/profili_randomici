@@ -7,7 +7,7 @@
 
 .name {
     font-size: 20px;
-    color: #1a237e;
+    color: #00695c;
     font-weight: bold;
     margin-bottom: 8px;
     display: flex;
@@ -16,7 +16,7 @@
 
 .dob {
     font-size: 15px;
-    color: #3949ab;
+    color: #00897b;
     margin-bottom: 10px;
     display: flex;
     align-items: center;
@@ -24,33 +24,34 @@
 
 .phone, .email, .location, .country, .address {
     font-size: 15px;
-    color: #222;
+    color: #333;
     margin-bottom: 7px;
     display: flex;
     align-items: center;
 }
 
 .picture {
-    height: 90px;
-    width: 90px;
-    border-radius: 50%;
-    border: 2px solid #4a90e2;
+    height: 100px;
+    width: 100px;
+    border-radius: 16px;
+    border: 2px solid #26a69a;
     object-fit: cover;
-    background: #e3f2fd;
-    box-shadow: 0 2px 8px rgba(60, 72, 88, 0.10);
+    background: #e0f2f1;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .line {
     height: 2px;
     width: 100%;
-    background: #bbdefb;
+    background: #b2dfdb;
     margin: 14px 0;
-    border-radius: 1px;
+    border-radius: 2px;
 }
 
 .img {
     height: 22px;
     width: 22px;
     margin-right: 10px;
-    opacity: 0.85;
+    opacity: 0.9;
+    filter: grayscale(20%);
 }
