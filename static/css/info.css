@@ -2,12 +2,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 .name {
     font-size: 20px;
-    color: #00695c;
+    color: #ffffff;
     font-weight: bold;
     margin-bottom: 8px;
     display: flex;
@@ -23,9 +23,9 @@
 }
 
 .phone, .email, .location, .country, .address {
-    font-size: 15px;
-    color: #333;
-    margin-bottom: 7px;
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 10px;
     display: flex;
     align-items: center;
 }
@@ -44,7 +44,7 @@
     height: 2px;
     width: 100%;
     background: #b2dfdb;
-    margin: 14px 0;
+    margin: 0px 0;
     border-radius: 2px;
 }
 
@@ -55,3 +55,4 @@
     opacity: 0.9;
     filter: grayscale(20%);
 }
+
