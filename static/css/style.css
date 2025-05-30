@@ -42,7 +42,7 @@
 
 .line {
     height: 2px;
-    width: 100%;
+    width: 70%;
     background: #b2dfdb;
     margin: 0px 0;
     border-radius: 2px;
@@ -56,3 +56,42 @@
     filter: grayscale(20%);
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.card {
+    width: 400px;
+    background: #000000c2;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 8px 32px rgba(255, 255, 255, 0.18), 0 2px 8px rgba(76, 175, 80, 0.10);
+    padding: 32px 36px;
+    border: 5px solid #0026ff;
+    transition: box-shadow 0.2s, border-color 0.2s;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#generateUserBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#generateUserBtn:hover {
+    background-color: #0056b3;
+}
